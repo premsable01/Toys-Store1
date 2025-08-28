@@ -1,2 +1,0 @@
-[phases.setup]
-nixPkgs = ["pkgs.jdk17", "pkgs.maven"]
