@@ -1,0 +1,44 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration Form</title>
+<link rel="stylesheet" href="Register.css">
+</head>
+<body>
+<form action="myrs" method="post">
+<div id="tbldiv">
+<h2>User Registration</h2>
+  <table id="mytbl">
+    <tr>
+      <td>Name:</td>
+      <td><input type="text" name="name1" placeholder="Enter your name.." required></td>
+    </tr>
+    <tr>
+      <td>Email:</td>
+      <td><input type="text" name="email1" placeholder="Enter your email.." required></td>
+    </tr>
+    <tr>
+      <td>Password:</td>
+      <td><input type="password" name="pass1" placeholder="Enter your password.." required></td>
+    </tr>
+    <tr>
+      <td>Gender:</td>
+      <td>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align:center;">
+        <input type="submit" value="Register">
+      </td>
+    </tr>
+  </table>
+  <h4>Do you have already account -> <a href="loginpage.jsp">Login</a></h4> 
+  </div>
+</form>
+</body>
+</html>

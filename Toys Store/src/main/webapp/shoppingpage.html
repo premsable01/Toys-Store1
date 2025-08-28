@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta charset="UTF-8">
+
+    <title>Simple Shopping Site</title>
+    <link rel="stylesheet" href="shoppage.css">
+</head>
+<body>
+
+<h1 id="mys">My Shopping Store</h1>
+        <nav>
+            <a class="myhome" href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#" onclick="showCart()">Cart 🛒</a>
+        </nav>
+
+<div id="myshop">
+<div class="product">
+    <img src="images/41JxP8f8BzL._AC_UL320_.jpg" alt="Product">
+    <h3>WireScorts Duck</h3>
+    <p>₹499</p>
+    <button onclick="addToCart('Warm White', 499)">Add to Cart</button>
+</div>
+
+<div class="product">
+    <img src="images/81Nw5is2BCL._AC_UL320_.jpg" alt="Product">
+    <h3>SUPER TOY</h3>
+    <p>₹455</p>
+    <button onclick="addToCart('Crystal Moon Lamp', 455)">Add to Cart</button>
+</div>
+
+<div class="product">
+    <img src="images/51h6wRH0lpL._AC_UL320_.jpg" alt="Product">
+    <h3>Babique Dog</h3>
+    <p>₹524</p>
+    <button onclick="addToCart('Warm White', 524)">Add to Cart</button>
+</div>
+
+<div class="product">
+    <img src="images/61+rs1F+oAL._AC_UL320_.jpg" alt="Product">
+    <h3>Karaoke Mic</h3>
+    <p>₹489</p>
+    <button onclick="addToCart('LED Night Light', 489)">Add to Cart</button>
+</div>
+
+<div class="product">
+    <img src="images/61fu2vtWH4L._AC_UL320_.jpg" alt="Product">
+    <h3>Graphene Bedtime Fun Kids</h3>
+    <p>₹489</p>
+    <button onclick="addToCart('LED Night Light', 489)">Add to Cart</button>
+</div>
+</div>
+
+<div id="myshop">
+<div class="product">
+    <img src="images/71ZMEUMno3L._AC_UL320_.jpg" alt="Product">
+    <h3>Toy Train Set</h3>
+    <p>₹299</p>
+    <button onclick="addToCart('Wall Lamp', 299)">Add to Cart</button>
+</div>
+
+<div class="product">
+    <img src="images/61IgEph39vL._AC_UL320_.jpg" alt="Product">
+    <h3>Mirana Type-C USB</h3>
+    <p>₹790</p>
+    <button onclick="addToCart('Premium Glass', 790)">Add to Cart</button>
+</div>
+
+<div class="product">
+    <img src="images/61K4YgRg1bL._AC_UL320_.jpg" alt="Product">
+    <h3>UCRAVO Montessori Toys</h3>
+    <p>₹359</p>
+    <button onclick="addToCart('Laptop Table', 359)">Add to Cart</button>
+</div>
+
+<div class="product">
+    <img src="images/61m8GF0uvLL._AC_UL320_.jpg" alt="Product">
+    <h3>Racer Ramp Toy </h3>
+    <p>₹399</p>
+    <button onclick="addToCart('Night Lamp', 399)">Add to Cart</button>
+</div>
+
+<div class="product">
+    <img src="images/61VJfRH4UoL._AC_UL320_.jpg" alt="Product">
+    <h3>SUPER TOY</h3>
+    <p>₹299</p>
+    <button onclick="addToCart('Sensor Wall Light', 299)">Add to Cart</button>
+</div>
+</div>
+
+<div id="myshop">
+<div class="product">
+    <img src="images/61XC4-QDkKL._AC_UL320_.jpg" alt="Product">
+    <h3>Little's Junior Ring</h3>
+    <p>₹474</p>
+    <button onclick="addToCart('Bedsheets', 474)">Add to Cart</button>
+</div>
+
+<div class="product">
+    <img src="images/61YBksUvsAL._AC_UL320_.jpg" alt="Product">
+    <h3>Kids Digital Camera</h3>
+    <p>₹205</p>
+    <button onclick="addToCart('Warm White- Plug', 205)">Add to Cart</button>
+</div>
+
+<div class="product">
+    <img src="images/71cTLtt+66L._AC_UL320_.jpg" alt="Product">
+    <h3>Mirana C-Type USB</h3>
+    <p>₹800</p>
+    <button onclick="addToCart('Kids Scooter', 800)">Add to Cart</button>
+</div>
+<div class="product">
+    <img src="images/71F067OVnpL._AC_UL320_.jpg" alt="Product">
+    <h3>SUPER TOY 112</h3>
+    <p>₹299</p>
+    <button onclick="addToCart('hand exercis', 299)">Add to Cart</button>
+</div>
+
+<div class="product">
+    <img src="images/71F0EW3-gBL._AC_UL320_.jpg" alt="Product">
+    <h3>3D Baby Car Toy</h3>
+    <p>₹220</p>
+    <button onclick="addToCart('Peeler Julienne', 220)">Add to Cart</button>
+</div>
+</div>
+
+<div class="ddiv">
+<button id="butt">Next page -></button>
+</div>
+
+<h2>Your Cart</h2>
+<div id="cart">Cart is empty</div>
+<button id="but">Buy</button>
+
+<script src="shopbuy.js"> </script>
+
+</body>
+</html>
