@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="Register.css">
 </head>
 <body>
-<form action="myrs" method="post">
+<form action="helloServlet" method="post">
 <div id="tbldiv">
 <h2>User Registration</h2>
   <table id="mytbl">
