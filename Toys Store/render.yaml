@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: toys-store
+    env: java
+    buildCommand: "mvn clean package"
+    startCommand: "java -jar target/webapp-runner.jar target/*.war"
